@@ -37,6 +37,7 @@ public class DBConnector {
              Statement statement = connection.createStatement()) {
 
             statement.executeUpdate("DELETE FROM TEST");
+            statement.executeUpdate("VACUUM");
 
             //Пакетное выполнение sql запросов
             connection.setAutoCommit(false);
