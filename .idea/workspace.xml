@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="589c34eb-b78c-44ff-b2c3-86042736d8c6" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/JDOMParser.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/introDB.db" afterPath="$PROJECT_DIR$/introDB.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/MainClass.java" afterPath="$PROJECT_DIR$/src/main/java/MainClass.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/DBConnector.java" afterPath="$PROJECT_DIR$/src/main/java/DBConnector.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,8 +38,8 @@
       <file leaf-file-name="MainClass.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MainClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+            <state relative-caret-position="255">
+              <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -47,12 +48,13 @@
       <file leaf-file-name="DBConnector.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/DBConnector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="58" column="49" lean-forward="false" selection-start-line="58" selection-start-column="49" selection-end-line="58" selection-end-column="49" />
+            <state relative-caret-position="1955">
+              <caret line="115" column="9" lean-forward="false" selection-start-line="115" selection-start-column="9" selection-end-line="115" selection-end-column="9" />
               <folding>
-                <marker date="1503988319485" expanded="true" signature="1138:1154" ph=" DELETE statement (TEST)" />
-                <marker date="1503988319485" expanded="true" signature="1149:1154" ph=" DELETE statement (TEST)" />
-                <marker date="1503988319485" expanded="true" signature="2089:2107" ph=" SELECT statement (TEST)" />
+                <element signature="imports" expanded="true" />
+                <marker date="1504072581655" expanded="true" signature="984:1000" ph=" DELETE statement (TEST)" />
+                <marker date="1504072581655" expanded="true" signature="995:1000" ph=" DELETE statement (TEST)" />
+                <marker date="1504072581655" expanded="true" signature="1798:1816" ph=" SELECT statement (TEST)" />
               </folding>
             </state>
           </provider>
@@ -63,8 +65,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="SQL Script" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -84,8 +86,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/test.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/Test.sql" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/DBConnector.java" />
         <option value="$PROJECT_DIR$/src/main/java/MainClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DBConnector.java" />
       </list>
     </option>
   </component>
@@ -331,7 +333,7 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="MainClass" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="1000" />
+      <option name="PROGRAM_PARAMETERS" value="10000" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -615,6 +617,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20121029" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -622,7 +625,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17019667" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32405892" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32405892" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -638,7 +641,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -708,9 +710,10 @@
         <state relative-caret-position="986">
           <caret line="58" column="49" lean-forward="false" selection-start-line="58" selection-start-column="49" selection-end-line="58" selection-end-column="49" />
           <folding>
-            <marker date="1503988319485" expanded="true" signature="1138:1154" ph=" DELETE statement (TEST)" />
-            <marker date="1503988319485" expanded="true" signature="1149:1154" ph=" DELETE statement (TEST)" />
-            <marker date="1503988319485" expanded="true" signature="2089:2107" ph=" SELECT statement (TEST)" />
+            <element signature="imports" expanded="true" />
+            <marker date="1504072581655" expanded="true" signature="984:1000" ph=" DELETE statement (TEST)" />
+            <marker date="1504072581655" expanded="true" signature="995:1000" ph=" DELETE statement (TEST)" />
+            <marker date="1504072581655" expanded="true" signature="1798:1816" ph=" SELECT statement (TEST)" />
           </folding>
         </state>
       </provider>
@@ -736,9 +739,10 @@
         <state relative-caret-position="986">
           <caret line="58" column="49" lean-forward="false" selection-start-line="58" selection-start-column="49" selection-end-line="58" selection-end-column="49" />
           <folding>
-            <marker date="1503988319485" expanded="true" signature="1138:1154" ph=" DELETE statement (TEST)" />
-            <marker date="1503988319485" expanded="true" signature="1149:1154" ph=" DELETE statement (TEST)" />
-            <marker date="1503988319485" expanded="true" signature="2089:2107" ph=" SELECT statement (TEST)" />
+            <element signature="imports" expanded="true" />
+            <marker date="1504072581655" expanded="true" signature="984:1000" ph=" DELETE statement (TEST)" />
+            <marker date="1504072581655" expanded="true" signature="995:1000" ph=" DELETE statement (TEST)" />
+            <marker date="1504072581655" expanded="true" signature="1798:1816" ph=" SELECT statement (TEST)" />
           </folding>
         </state>
       </provider>
@@ -764,9 +768,10 @@
         <state relative-caret-position="1445">
           <caret line="85" column="14" lean-forward="false" selection-start-line="85" selection-start-column="14" selection-end-line="85" selection-end-column="14" />
           <folding>
-            <marker date="1503988319485" expanded="true" signature="1138:1154" ph=" DELETE statement (TEST)" />
-            <marker date="1503988319485" expanded="true" signature="1149:1154" ph=" DELETE statement (TEST)" />
-            <marker date="1503988319485" expanded="true" signature="2089:2107" ph=" SELECT statement (TEST)" />
+            <element signature="imports" expanded="true" />
+            <marker date="1504072581655" expanded="true" signature="984:1000" ph=" DELETE statement (TEST)" />
+            <marker date="1504072581655" expanded="true" signature="995:1000" ph=" DELETE statement (TEST)" />
+            <marker date="1504072581655" expanded="true" signature="1798:1816" ph=" SELECT statement (TEST)" />
           </folding>
         </state>
       </provider>
@@ -792,9 +797,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1503988319485" expanded="true" signature="1138:1154" ph=" DELETE statement (TEST)" />
-            <marker date="1503988319485" expanded="true" signature="1149:1154" ph=" DELETE statement (TEST)" />
-            <marker date="1503988319485" expanded="true" signature="2089:2107" ph=" SELECT statement (TEST)" />
+            <element signature="imports" expanded="true" />
+            <marker date="1504072581655" expanded="true" signature="984:1000" ph=" DELETE statement (TEST)" />
+            <marker date="1504072581655" expanded="true" signature="995:1000" ph=" DELETE statement (TEST)" />
+            <marker date="1504072581655" expanded="true" signature="1798:1816" ph=" SELECT statement (TEST)" />
           </folding>
         </state>
       </provider>
@@ -820,9 +826,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1503988319485" expanded="true" signature="1138:1154" ph=" DELETE statement (TEST)" />
-            <marker date="1503988319485" expanded="true" signature="1149:1154" ph=" DELETE statement (TEST)" />
-            <marker date="1503988319485" expanded="true" signature="2089:2107" ph=" SELECT statement (TEST)" />
+            <element signature="imports" expanded="true" />
+            <marker date="1504072581655" expanded="true" signature="984:1000" ph=" DELETE statement (TEST)" />
+            <marker date="1504072581655" expanded="true" signature="995:1000" ph=" DELETE statement (TEST)" />
+            <marker date="1504072581655" expanded="true" signature="1798:1816" ph=" SELECT statement (TEST)" />
           </folding>
         </state>
       </provider>
@@ -848,9 +855,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1503988319485" expanded="true" signature="1138:1154" ph=" DELETE statement (TEST)" />
-            <marker date="1503988319485" expanded="true" signature="1149:1154" ph=" DELETE statement (TEST)" />
-            <marker date="1503988319485" expanded="true" signature="2089:2107" ph=" SELECT statement (TEST)" />
+            <element signature="imports" expanded="true" />
+            <marker date="1504072581655" expanded="true" signature="984:1000" ph=" DELETE statement (TEST)" />
+            <marker date="1504072581655" expanded="true" signature="995:1000" ph=" DELETE statement (TEST)" />
+            <marker date="1504072581655" expanded="true" signature="1798:1816" ph=" SELECT statement (TEST)" />
           </folding>
         </state>
       </provider>
@@ -876,9 +884,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1503988319485" expanded="true" signature="1138:1154" ph=" DELETE statement (TEST)" />
-            <marker date="1503988319485" expanded="true" signature="1149:1154" ph=" DELETE statement (TEST)" />
-            <marker date="1503988319485" expanded="true" signature="2089:2107" ph=" SELECT statement (TEST)" />
+            <element signature="imports" expanded="true" />
+            <marker date="1504072581655" expanded="true" signature="984:1000" ph=" DELETE statement (TEST)" />
+            <marker date="1504072581655" expanded="true" signature="995:1000" ph=" DELETE statement (TEST)" />
+            <marker date="1504072581655" expanded="true" signature="1798:1816" ph=" SELECT statement (TEST)" />
           </folding>
         </state>
       </provider>
@@ -904,9 +913,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1503988319485" expanded="true" signature="1138:1154" ph=" DELETE statement (TEST)" />
-            <marker date="1503988319485" expanded="true" signature="1149:1154" ph=" DELETE statement (TEST)" />
-            <marker date="1503988319485" expanded="true" signature="2089:2107" ph=" SELECT statement (TEST)" />
+            <element signature="imports" expanded="true" />
+            <marker date="1504072581655" expanded="true" signature="984:1000" ph=" DELETE statement (TEST)" />
+            <marker date="1504072581655" expanded="true" signature="995:1000" ph=" DELETE statement (TEST)" />
+            <marker date="1504072581655" expanded="true" signature="1798:1816" ph=" SELECT statement (TEST)" />
           </folding>
         </state>
       </provider>
@@ -934,9 +944,10 @@
         <state relative-caret-position="629">
           <caret line="37" column="53" lean-forward="false" selection-start-line="37" selection-start-column="53" selection-end-line="37" selection-end-column="53" />
           <folding>
-            <marker date="1503988319485" expanded="true" signature="1138:1154" ph=" DELETE statement (TEST)" />
-            <marker date="1503988319485" expanded="true" signature="1149:1154" ph=" DELETE statement (TEST)" />
-            <marker date="1503988319485" expanded="true" signature="2089:2107" ph=" SELECT statement (TEST)" />
+            <element signature="imports" expanded="true" />
+            <marker date="1504072581655" expanded="true" signature="984:1000" ph=" DELETE statement (TEST)" />
+            <marker date="1504072581655" expanded="true" signature="995:1000" ph=" DELETE statement (TEST)" />
+            <marker date="1504072581655" expanded="true" signature="1798:1816" ph=" SELECT statement (TEST)" />
           </folding>
         </state>
       </provider>
@@ -970,9 +981,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1503988319485" expanded="true" signature="1138:1154" ph=" DELETE statement (TEST)" />
-            <marker date="1503988319485" expanded="true" signature="1149:1154" ph=" DELETE statement (TEST)" />
-            <marker date="1503988319485" expanded="true" signature="2089:2107" ph=" SELECT statement (TEST)" />
+            <element signature="imports" expanded="true" />
+            <marker date="1504072581655" expanded="true" signature="984:1000" ph=" DELETE statement (TEST)" />
+            <marker date="1504072581655" expanded="true" signature="995:1000" ph=" DELETE statement (TEST)" />
+            <marker date="1504072581655" expanded="true" signature="1798:1816" ph=" SELECT statement (TEST)" />
           </folding>
         </state>
       </provider>
@@ -999,9 +1011,10 @@
         <state relative-caret-position="340">
           <caret line="20" column="32" lean-forward="false" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
           <folding>
-            <marker date="1503988319485" expanded="true" signature="1138:1154" ph=" DELETE statement (TEST)" />
-            <marker date="1503988319485" expanded="true" signature="1149:1154" ph=" DELETE statement (TEST)" />
-            <marker date="1503988319485" expanded="true" signature="2089:2107" ph=" SELECT statement (TEST)" />
+            <element signature="imports" expanded="true" />
+            <marker date="1504072581655" expanded="true" signature="984:1000" ph=" DELETE statement (TEST)" />
+            <marker date="1504072581655" expanded="true" signature="995:1000" ph=" DELETE statement (TEST)" />
+            <marker date="1504072581655" expanded="true" signature="1798:1816" ph=" SELECT statement (TEST)" />
           </folding>
         </state>
       </provider>
@@ -1058,22 +1071,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SAXParseXML.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MainClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        <state relative-caret-position="255">
+          <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DBConnector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="58" column="49" lean-forward="false" selection-start-line="58" selection-start-column="49" selection-end-line="58" selection-end-column="49" />
+        <state relative-caret-position="1955">
+          <caret line="115" column="9" lean-forward="false" selection-start-line="115" selection-start-column="9" selection-end-line="115" selection-end-column="9" />
           <folding>
-            <marker date="1503988319485" expanded="true" signature="1138:1154" ph=" DELETE statement (TEST)" />
-            <marker date="1503988319485" expanded="true" signature="1149:1154" ph=" DELETE statement (TEST)" />
-            <marker date="1503988319485" expanded="true" signature="2089:2107" ph=" SELECT statement (TEST)" />
+            <element signature="imports" expanded="true" />
+            <marker date="1504072581655" expanded="true" signature="984:1000" ph=" DELETE statement (TEST)" />
+            <marker date="1504072581655" expanded="true" signature="995:1000" ph=" DELETE statement (TEST)" />
+            <marker date="1504072581655" expanded="true" signature="1798:1816" ph=" SELECT statement (TEST)" />
           </folding>
         </state>
       </provider>
