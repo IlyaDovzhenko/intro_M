@@ -122,10 +122,8 @@ public class DBConnector {
         @Override
         public void startElement(String uri, String localName, String qName, org.xml.sax.Attributes attributes) throws SAXException {
             if(qName.equals("entry")) {
-                //System.out.println("Значение поля: " + attributes.getValue("field"));
                 count = count + Long.parseLong(attributes.getValue("field"));
             }
-            super.startElement(uri, localName, qName, attributes);
         }
     }
 }
